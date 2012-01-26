@@ -1,0 +1,103 @@
+﻿/* grid */
+.grid
+{
+    margin: 0 0 8px 0;
+    background: #fff;
+    border: 1px solid #CFCFCF;
+    border-bottom: none;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    clear: both;
+    font-size: 11px;
+}
+.grid caption
+{
+    padding: 8px 0;
+    text-indent: 0;
+}
+.grid col
+{
+    border-spacing: 0;
+    display: table-column;
+}
+.grid colgroup
+{
+    border-spacing: 0;
+    display: table-column-group;
+}
+.grid tbody
+{
+    border-spacing: 0;
+    vertical-align: middle;
+}
+.grid thead, .grid th
+{
+    background-color: #ececec;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
+    background-image: -moz-linear-gradient(#f4f4f4, #ececec);
+    background-image: -o-linear-gradient(#f4f4f4, #ececec);
+    background-image: linear-gradient(#f4f4f4, #ececec);
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 11px;
+    color: #676767;
+}
+.grid tr:hover
+{
+    background-color: #f0f3d6;
+}
+.grid th
+{
+    border-bottom: 1px solid #eaeaea;
+    border-spacing: 0px;
+    display: table-cell;
+    padding: 6px 2px;
+}
+.grid td
+{
+    border-bottom: 1px solid #eaeaea;
+    border-spacing: 0px;
+    display: table-cell;
+    padding: 2px 2px;
+}
+.pager
+{
+    padding-left: 15px;
+    line-height: 27px;
+}
+.divColL
+{
+    float: left;
+}
+.divColR
+{
+    float: right;
+}
+.popupHide
+{
+    display: none;
+}
+.filterRow {
+    font-weight: bold;
+}
+.filterRow td {
+    border: none;
+}
+
+
+﻿.PagedList-pager > ul{
+	display: block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.PagedList-pager > ul > li{
+	margin: .25em;
+	display: inline-block;
+}
+.PagedList-goToPage > fieldset{
+	border: 0;
+}

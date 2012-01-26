@@ -1,0 +1,14 @@
+﻿@using EasyGrid.Grid
+@model IEnumerable<Demo.Models.Contact>
+@{
+    Layout = "";
+}
+@Html.DataGrid(Model, new[] {
+    new DataColumnOptions{FieldName = "FirstName"}, 
+    new DataColumnOptions{FieldName = "LastName"}, 
+    new DataColumnOptions("Phone"), 
+}, new DataGridOptions
+{
+    KeyField = "Id",
+    TextField = "FirstName",
+})

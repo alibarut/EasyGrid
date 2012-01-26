@@ -1,0 +1,1 @@
+By using Dynamic Linq MvcGrid handle paging
